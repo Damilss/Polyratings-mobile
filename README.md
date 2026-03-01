@@ -1,6 +1,32 @@
-# Welcome to your Expo app 👋
+ # PolyRatings Mobile (Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Unofficial mobile client for Cal Poly’s PolyRatings (rate-my-professor style) dataset.
+
+This repo contains an **Expo (React Native)** app targeting **iOS** and **Android**, built as a **read-only** experience (no accounts, no posting). The app consumes a **publicly reachable API** (preferred) rather than connecting directly to a database.
+
+---
+
+## Goals (v1)
+
+- Browse professors
+- Search + filter (name, department, course, etc.)
+- Professor detail view (summary + ratings breakdown)
+- Course list per professor (if available)
+- Basic caching for fast, offline-friendly browsing
+- Ship to **Apple App Store** and **Google Play Store**
+
+---
+
+## Tech Stack
+
+- **Expo (React Native)**
+- **TypeScript**
+- Navigation: **Expo Router**
+- Data fetching/cache: TBD
+- Lint/format: ESLint 
+---
+
+# EXPO
 
 ## Get started
 
@@ -37,14 +63,4 @@ This command will move the starter code to the **app-example** directory and cre
 
 ## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo documentation](https://docs.expo.dev/)
